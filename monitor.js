@@ -11,7 +11,7 @@ function reset(){
                 shell.exec("pm2 start 1");
             },5000)
         },15000)
-    },1800000)
+    },1000000)
 }
 
 reset();
