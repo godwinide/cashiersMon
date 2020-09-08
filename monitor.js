@@ -10,7 +10,7 @@ function reset(){
             setTimeout(()=> {
                 shell.exec("pm2 start 1");
             },5000)
-        },15000)
+        },5000)
     },1000000)
 }
 
